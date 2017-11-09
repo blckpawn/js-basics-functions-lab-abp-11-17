@@ -1,13 +1,9 @@
 // Code your solution in this file!
-const headquarters = 42;
-
-const distanceInBlocks = Math.abs(destination - headquarters);
-
 function distanceFromHqInBlocks (destination){
 
       const headquarters = 42;
 
-      
+      const distanceInBlocks = Math.abs(destination - headquarters);
 
       return distanceInBlocks ;
 
