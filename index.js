@@ -18,3 +18,9 @@ function distanceFromHqInFeet (location) {
       return (42 - location ) * 264;
 
 }
+
+function distanceTravelledInFeet(Start, End){
+  const walker = Math.abs(start - end) * 264;
+
+   return walker;
+}
