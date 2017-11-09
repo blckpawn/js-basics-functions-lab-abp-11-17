@@ -22,9 +22,11 @@ function distanceFromHqInFeet (location) {
 }
 
 function distanceTravelledInFeet(start, end){
-  const walker = Math.abs(start - end) * 264;
-
-   return walker;
+  if (start < end) {
+      return (end - start) * 264;
+    } else {
+      return (start - end) * 264
+    }
 
 
 }
@@ -43,4 +45,3 @@ function calculatesFarePrice(start, end) {
   }
   }
   }
-
