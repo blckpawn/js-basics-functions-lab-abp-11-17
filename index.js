@@ -1,6 +1,6 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks (destination){
-  
+
       const headquarters = 42;
 
       const distanceInBlocks = Math.abs(destination - headquarters);
@@ -9,7 +9,7 @@ function distanceFromHqInBlocks (destination){
 
 }
 function calculateVertical(headquarters, destination) {
-  (headquarters - destination) *264;
+  (headquarters - destination) * 264;
 
 }
 
