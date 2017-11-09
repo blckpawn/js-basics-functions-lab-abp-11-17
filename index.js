@@ -6,4 +6,4 @@ function distanceFromHqInBlocks (headquarters, destination){
       return 'You have traveled ${block} blocks.';
     }
 }
-distanceFromHqInBlocks(42, 43);
+distanceFromHqInBlocks(43, 43);
