@@ -6,4 +6,4 @@ function distanceFromHqInBlocks (destination){
       return distanceInBlocks;
     }
 }
-distanceFromHqInBlocks(43);
+distanceFromHqInBlocks(32);
