@@ -32,7 +32,7 @@ function distanceTravelledInFeet(start, end){
 }
 function calculatesFarePrice(start,end) {
   distanceTravelledInFeet(start,end);
-   const x = distanceTravelledInFeet();
+   const x = distanceTravelledInFeet(start, end);
 
   if (x <400) {
     return 0;
