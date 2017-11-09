@@ -7,3 +7,8 @@ function distanceFromHqInBlocks (destination){
 
 }
 distanceFromHqInBlocks(34);
+
+
+function distanceFromHqInFeet () {
+  distanceFromHqInBlocks()*264;
+}
