@@ -6,7 +6,10 @@ function distanceFromHqInBlocks (destination){
       return distanceInBlocks ;
 
 }
-
+function calculateVertical(headquarters, destination) {
+  (headquarters - destination) *264;
+   
+}
 
 
 function distanceFromHqInFeet () {
