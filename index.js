@@ -1,5 +1,5 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks (headquarters, destination){
-    console.log(`The driver when from ${headquarters} to ${destination}`);
+    destination - headquarters
 }
-distanceFromHqInBlocks(42, 43); 
+distanceFromHqInBlocks(42, 43);
