@@ -14,7 +14,7 @@ function distanceFromHqInFeet () {
 
   const block = 264;
 
-  const feet = distanceInblocks * block;
+  const feet = distanceInBlocks * block;
 
   return feet;
 
