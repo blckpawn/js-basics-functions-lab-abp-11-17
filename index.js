@@ -31,7 +31,7 @@ function distanceTravelledInFeet(start, end){
 
 }
 function calculatesFarePrice() {
-   const fare = distanceTravelledInFeet();
+   let fare = distanceTravelledInFeet();
 
   if (fare <400) {
     return 0;
