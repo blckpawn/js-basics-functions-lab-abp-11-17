@@ -6,5 +6,4 @@ function distanceFromHqInBlocks (destination){
       return math.abs(distanceInBlocks) ;
     }
 }
-distanceFromHqInBlocks(42);
-
+distanceFromHqInBlocks(43);
