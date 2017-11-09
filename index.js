@@ -36,7 +36,7 @@ function calculatesFarePrice(location) {
   if (location <400) {
     return 0;
   } else {
-  if (distanceTravelledInFeet()  >400 && distanceTravelledInFeet()  <2000) {
+  if (location >400 && location <2000) {
     return distanceTravelledInFeet() * 0.02;
   } else {
   if (distanceTravelledInFeet() >2000 && distanceTravelledInFeet() <2500) {
