@@ -31,15 +31,15 @@ function distanceTravelledInFeet(start, end){
 
 }
 function calculatesFarePrice() {
-   let fare = distanceTravelledInFeet();
+   const x = distanceTravelledInFeet();
 
-  if (fare <400) {
+  if (x <400) {
     return 0;
   } else {
-  if (distanceTravelledInFeet()  >400 && distanceTravelledInFeet()  <2000) {
-    return distanceTravelledInFeet() * 0.02;
+  if (x  >400 && x  <2000) {
+    return x * 0.02;
   } else {
-  if (distanceTravelledInFeet() >2000 && distanceTravelledInFeet() <2500) {
+  if (x >2000 && x <2500) {
     return 25;
   } else {
     return 'cannot travel that far';
