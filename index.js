@@ -1,7 +1,7 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks (destination){
   
-      const distanceInBlocks = 42 - destination ;
+      const distanceInBlocks = destination - 42;
 
       return distanceInBlocks;
     
