@@ -32,7 +32,7 @@ function calculatesFarePrice(start, end){
 
   const total = start - end;
 
-  if( total <400 && > 2000){
+  if( total <400 && total >2000){
     return 0;
   }
 
