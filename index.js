@@ -1,9 +1,9 @@
 // Code your solution in this file!
-function distanceFromHqInBlocks (destination){
+function distanceFromHqInBlocks (location){
 
       const headquarters = 42;
 
-      const distanceInBlocks = Math.abs(destination - headquarters);
+      const distanceInBlocks = Math.abs(location - headquarters);
 
       return distanceInBlocks ;
 
@@ -24,9 +24,6 @@ function distanceTravelledInFeet(start, end){
 
    return walker;
 
-   
+
 }
-
-
-
-
+function calculatesFarePrice(start, destination)
