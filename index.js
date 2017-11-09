@@ -36,6 +36,10 @@ function calculatesFarePrice(start, end){
     return 0;
   } else if( total >=400 && total <=2000){
     return (total *.02);
+  } else if ( total >2000 && <=2500){
+    return (25);
+  }else if (total >2500){
+    return "cannot travel that far"
   }
 
 }
