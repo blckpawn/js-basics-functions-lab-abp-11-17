@@ -26,20 +26,8 @@ function distanceTravelledInFeet(start, end){
 
       if(walker <= 400){
         return "The trip is free"
-      }else if(walker >=401 || <=2000){
-      const total = walker * .02
-        return total;
-      }else if(walker >2000 || <2500){
-        total = 25;
-        return total;
-      }else if(walker >2500){
-        return "The distance is too far."
       }
    }
 
-   
+
 }
-
-
-
-
