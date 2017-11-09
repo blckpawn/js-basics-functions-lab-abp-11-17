@@ -28,4 +28,8 @@ function distanceTravelledInFeet(start, end){
 
 
 }
-function calculatesFarePrice(start, destination){}
+function calculatesFarePrice(start, end){
+  if( start - end <400){
+    return 0;
+  }
+}
