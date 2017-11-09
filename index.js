@@ -10,9 +10,9 @@ function distanceFromHqInBlocks (destination){
 }
 
 function distanceFromHqInFeet () {
-  distanceFromHqInBlocks();
+  distanceFromHqInBlocks(42);
 
-    const distanceInFeet = distanceFromHqInBlocks(0) * 264;
+    const distanceInFeet = distanceFromHqInBlocks() * 264;
 
     return distanceInFeet;
 
