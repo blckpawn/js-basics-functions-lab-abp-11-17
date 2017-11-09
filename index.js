@@ -31,7 +31,7 @@ function distanceTravelledInFeet(start, end){
 
 }
 function calculatesFarePrice(start) {
-   distanceTravelledInFeet();
+   distanceTravelledInFeet(start);
   if (start  <400) {
     return 0;
   } else {
