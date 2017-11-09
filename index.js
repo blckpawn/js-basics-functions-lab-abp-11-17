@@ -34,7 +34,7 @@ function calculatesFarePrice(start, end){
 
   if( total <400){
     return 0;
-  } else( total > 400 && total <2000){
+  } else( total > 400 & total <2000){
     return (total *.02)
   }
 
