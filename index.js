@@ -15,7 +15,7 @@ function calculateVertical(headquarters, destination) {
 
 
 function distanceFromHqInFeet () {
-  distanceFromHqInBlocks();
+  distanceFromHqInBlocks() * calculateVertical;
 
 
 }
