@@ -1,5 +1,5 @@
 // Code your solution in this file!
-function distanceFromHqInBlocks (location){
+function distanceFromHqInBlocks(location){
 
       const headquarters = 42;
 
