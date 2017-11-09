@@ -3,7 +3,7 @@ function distanceFromHqInBlocks (destination){
     if ( destination >= 42){
       const distanceInBlocks = destination - 42;
 
-      return distanceInBlocks * |1|;
+      return distanceInBlocks ;
     }
 }
 distanceFromHqInBlocks(42, 43);
