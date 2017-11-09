@@ -29,9 +29,11 @@ function distanceTravelledInFeet(start, end){
 
 }
 function calculatesFarePrice(start, end){
-
+  
+  const total = start - end;
+  
   if( total <400){
     return 0;
   }
-  
+
 }
