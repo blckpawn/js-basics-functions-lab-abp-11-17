@@ -33,7 +33,7 @@ function calculatesFarePrice(start, end){
   const total = start - end;
 
   if( total <400){
-    return total * 0;
+    
   } else if (total >=2500){
     return 'cannot travel that far';
   }
