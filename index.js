@@ -3,9 +3,11 @@ function distanceFromHqInBlocks(location){
 
       const headquarters = 42;
 
-      const distanceInBlocks = Math.abs(location - headquarters);
-
-      return distanceInBlocks ;
+      if( location > headquarters){
+        return (location - headquarters);
+      }else{
+        return (headquarters - location);
+      }
 
 }
 
