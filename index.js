@@ -1,7 +1,7 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks (destination){
 
-       Math.abs(destination - 42);
+      const distanceInBlocks = Math.abs(destination - 42);
 
       return distanceInBlocks ;
 
