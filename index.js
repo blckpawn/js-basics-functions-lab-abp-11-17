@@ -3,7 +3,7 @@ function distanceFromHqInBlocks (headquarters, destination){
     if ( destination >= headquarters){
       const distanceInBlocks = destination - 42;
 
-      return `${distanceInBlocks} blocks.`;
+      return distanceInBlocks;
     }
 }
 distanceFromHqInBlocks(42, 43);
