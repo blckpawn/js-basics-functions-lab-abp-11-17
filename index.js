@@ -22,12 +22,11 @@ function distanceFromHqInFeet (location) {
 function distanceTravelledInFeet(start, end){
   const walker = Math.abs(start - end) * 264;
 
-   function calculatesFarePrice(){
+   return walker;
 
-      if(walker <= 400){
-        return "The trip is free"
-      }
-   }
-
-
+   
 }
+
+
+
+
